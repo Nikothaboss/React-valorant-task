@@ -1,0 +1,8 @@
+@use "../../sass/partials/mixins";
+
+.wrapper {
+  width: 100%;
+  @include mixins.flex(space-between, center);
+  flex-wrap: wrap;
+  padding: 20px;
+}
