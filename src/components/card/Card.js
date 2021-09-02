@@ -1,5 +1,6 @@
 import React from 'react'
 import style from "../card/card.module.scss"
+import {Paragraph} from "../typography/Typography";
 
 const Card = ({image, alt, text}) => {
     return (
@@ -8,7 +9,7 @@ const Card = ({image, alt, text}) => {
                 <img src={image} alt={alt} />
             </div>
             <div className={style.cardText} >
-                <p> {text} </p>
+                <Paragraph black> {text} </Paragraph> 
             </div>
         </div>
     )

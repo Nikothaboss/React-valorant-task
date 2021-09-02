@@ -6,15 +6,13 @@ import sova from "../../img/sova.jpg"
 
 const Body = () => {
     return (
-        <div className={style.wrapper}>
+        <div className={style.wrapper} >
             <Card image={sova} alt="whatever" text={cardText.sova} />
             <Card image={sova} alt="whatever" text={cardText.viper} />
             <Card image={sova} alt="whatever" text={cardText.jett} />
             <Card image={sova} alt="whatever" text={cardText.brimstone} />
             <Card image={sova} alt="whatever" text={cardText.sage} />
             <Card image={sova} alt="whatever" text={cardText.killjoy} />
-
-
         </div>
     )
 }
