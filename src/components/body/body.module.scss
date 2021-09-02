@@ -2,7 +2,7 @@
 
 .wrapper {
   width: 100%;
-  @include mixins.flex(space-between, center);
+  @include mixins.flex(space-between, flex-start);
   flex-wrap: wrap;
   padding: 20px;
 }
