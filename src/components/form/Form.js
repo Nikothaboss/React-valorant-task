@@ -46,7 +46,7 @@ const Form = () => {
                 <Input type="text" id="lastName" name="lastName"></Input>
             </Div>
             <Div>
-                <label for="email">Last Name: </label>
+                <label for="email">Email: </label>
                 <Input type="email" id="email" name="email"></Input>
             </Div>
             <Div>
