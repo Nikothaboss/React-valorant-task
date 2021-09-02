@@ -1,0 +1,28 @@
+@use "../../sass/partials/mixins";
+
+.wrapper {
+  width: 322px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+  z-index: 9;
+
+  img {
+    object-fit: fill;
+
+    width: 320px;
+    height: 220px;
+  }
+  .cardText {
+    @include mixins.flex(center, center);
+    height: 200px;
+    width: 320px;
+    line-height: 1.6;
+    background-color: white;
+    padding: 20px;
+  }
+
+  .imgContainer {
+    width: 320px;
+    height: 220px;
+  }
+}

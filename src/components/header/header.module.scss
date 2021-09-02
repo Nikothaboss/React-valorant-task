@@ -1,0 +1,18 @@
+@use "../../sass/partials/mixins";
+@use "../../sass/partials/variables";
+
+.wrapper {
+  @include mixins.flex(space-between, center, row);
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.61);
+  padding: 0 20px;
+  color: white;
+}
+
+.nav {
+  @include mixins.flex(space-between, center, row);
+  width: 50%;
+  list-style: none;
+  padding: 0 20px;
+  height: 100px;
+}
